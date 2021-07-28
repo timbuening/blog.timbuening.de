@@ -1,5 +1,5 @@
 ---
-title: 'Vorlage'
+title: 'Der Master of Procrastination'
 published: false
 visible: false
 process:
