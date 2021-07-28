@@ -8,7 +8,7 @@ process:
 ---
 
 ## Logitech MX Master 3
-[img](.././image1.jpg)
+![img](.././image1.jpg)
 > Vorab ein Disclaimer; 
 > Ich habe die Maus eigenständig, in vollem Umfang bezahlt und gekauft. Ich werde keine Referral-Links oder ähnliches nutzen um auch nur ansatzweise durch dieses Review zu profitieren.
 > Ich bin einfach ganz ehrlich sehr begeistert von der Maus und wollte deshalb meine Meinung zu ihr mit euch teilen. #notsponsored  
