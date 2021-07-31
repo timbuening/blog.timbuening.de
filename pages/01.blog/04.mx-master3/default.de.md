@@ -5,6 +5,8 @@ visible: true
 process:
     markdown: true
     twig: false
+date: '30-07-2021 13:31'
+publish_date: '30-07-2021 13:31'
 ---
 
 ## Logitech MX Master 3
