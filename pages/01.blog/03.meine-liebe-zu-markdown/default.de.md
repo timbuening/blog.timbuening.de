@@ -5,6 +5,8 @@ visible: true
 process:
     markdown: true
     twig: false
+date: '29-07-2021 13:31'
+publish_date: '29-07-2021 13:31'
 ---
 
 In diesem Beitrag möchte ich über meine Liebe zu Markdown sowie der Zettelkastenmethode sprechen. Außerdem zeige ich einen Interessanten Weg, wie ich diese Methode digital nutze. Opensource und recht simpel, ohne dass man "ein übelster Nerd sein muss", aber der Reihe nach.
