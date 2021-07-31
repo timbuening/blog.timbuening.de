@@ -5,6 +5,8 @@ visible: true
 process:
     markdown: true
     twig: false
+date: '28-07-2021 13:30'
+publish_date: '28-07-2021 13:30'
 ---
 
 Ich habe meine Bloggingsoftware auf das quelloffene [Grav - a modern open source flat-file CMS](https://getgrav.org/) umgestellt!
