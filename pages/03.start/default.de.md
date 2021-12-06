@@ -1,7 +1,5 @@
 ---
-title: Start
+title: 'Über mich'
 ---
 
-Startseite 
-
-In Arbeit
+Über mich wird noch erstellt ;)
