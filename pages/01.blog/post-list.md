@@ -1,5 +1,5 @@
 ---
-title: Blog
+title: Artikel
 body_classes: 'title-center title-h1h2'
 visible: true
 published: true

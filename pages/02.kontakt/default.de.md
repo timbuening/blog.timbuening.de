@@ -5,6 +5,7 @@ title: Kontakt
 Hier nachfolgend einige Wege, wie ihr mich erreichen könnt:
 
 Telegram: t.me/timbuening
+matrix: @timbuening:timbo.cc
 Threema: V8VUVKNX
 Twitter: https://twitter.com/TimBuening
 Wer meine Nummer braucht, melde sich bitte per Mail. Die Adresse ist ganz einfach; wie viel ist 2+2? Die Antwort einfach [ZAHL]@timbuening.de senden und mir schreiben :)
