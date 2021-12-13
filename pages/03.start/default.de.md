@@ -9,5 +9,3 @@ Ich bin in vielen Projekten involviert, unter anderem in Start-Ups, einer Partei
 Wenn du denkst, wir könnten uns zusammentun und gemeinsam Malochen, dann melde dich gern.
 
 
-Hier findest du mich:
-{% include 'partials/socialmedia.html.twig' %}
