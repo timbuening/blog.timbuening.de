@@ -10,3 +10,4 @@ Wenn du denkst, wir könnten uns zusammentun und gemeinsam Malochen, dann melde 
 
 
 Hier findest du mich:
+{% include 'partials/socialmedia.html.twig' %}
