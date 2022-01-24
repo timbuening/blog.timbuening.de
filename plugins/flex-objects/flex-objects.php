@@ -242,7 +242,6 @@ class FlexObjectsPlugin extends Plugin
         $types = (array)$this->config->get('plugins.flex-objects.directories', []);
         $this->registerDirectories($flex, $types, true);
 
-        /** @var AdminController controller */
         $this->controller = new AdminController();
 
         /** @var Debugger $debugger */
@@ -277,15 +276,19 @@ class FlexObjectsPlugin extends Plugin
      */
     public function onPagesInitialized(Event $event): void
     {
+        /** @var Route|null $route */
+        $route = $event['route'] ?? null;
+        if (null === $route) {
+            // Stop if in CLI.
+            return;
+        }
+
         /** @var PageInterface|null $page */
         $page = $this->grav['page'] ?? null;
 
-        /** @var Route $route */
-        $route = $event['route'];
-
         $base = '';
         $path = [];
-        if (!$page->routable() && $page->template() !== 'notfound') {
+        if (!$page->routable() || $page->template() === 'notfound') {
             /** @var Pages $pages */
             $pages = $this->grav['pages'];
 
@@ -356,6 +359,7 @@ class FlexObjectsPlugin extends Plugin
         }
 
         // Make sure the page contains flex.
+        /** @var array $config <- phpstan 1 workaround */
         $config = $header->flex ?? [];
         if (!$config && !$form) {
             return;

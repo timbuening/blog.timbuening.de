@@ -1,3 +1,27 @@
+# v1.1.7
+## 01/03/2022
+
+1. [](#new)
+    * Allow intercepting object `create`, `update` and `delete` tasks by using `FlexTaskEvent` event
+2. [](#improved)
+    * Added optional `$scope` parameter to `ObjectController::checkAuthorization()`
+3. [](#bugfix)
+    * Fixed continue task with `PageInterface` types
+    
+# v1.1.6
+## 11/29/2021
+
+1. [](#bugfix)
+    * Fixed regression `Call to a member function getRoute() on null` when using CLI [#151](https://github.com/trilbymedia/grav-plugin-flex-objects/issues/151)
+
+# v1.1.5
+## 11/24/2021
+
+1. [](#new)
+    * Added method `ObjectController::checkAuthorizations()` to check if one of the actions is true
+2. [](#bugfix)
+    * Fixed regression when calling flex router with a path
+
 # v1.1.4
 ## 11/16/2021
 
