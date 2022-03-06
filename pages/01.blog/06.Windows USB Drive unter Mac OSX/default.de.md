@@ -15,7 +15,7 @@ Den USB Stick wie gewohnt formatieren als FAT mit MBR (Master Boot Record).
 Dann alle Dateien aus dem frisch heruntergeladenen WIN10-Image rüberkopieren **außer** der Install.wim
 Dann einen Terminal starten, falls noch nicht geschehen Homebrew installieren! 
 Ansonsten:
-- `brew install wimlib`
+- ` brew install wimlib `
 Dann mit `wimlib-imagex split /Volumes/CCCOMA_X64FRE_DE-DE_DV9/sources/install.wim /Volumes/WIN10/sources/install.swm 3800` die `install.wim` an ihren bestimmungsgemäßen Ort platzieren. wimlib unterteilt die install.wim nun nach, in meinem Fall 3800 MB und erstellt quasi eine install.wim2 mit dem Rest, der nicht in den ersten Teil passte. 
 Windows 10 kann bei der Installation damit problemslos umgehen. 
 
