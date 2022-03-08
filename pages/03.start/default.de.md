@@ -11,8 +11,9 @@ Wenn du denkst, wir könnten uns zusammentun und gemeinsam Malochen, dann melde 
 
 Eine Auswahl cooler Dinge, bei denen ich "mitmach":
 
-* https://polypoly.coop/de-de
 * https://www.diehumanisten.de/
 * https://aufklaerungsdienst.de/
 * https://www.gwup.org/
+* https://polypoly.coop/de-de
+
 * uvm.
