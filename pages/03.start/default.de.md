@@ -2,8 +2,7 @@
 title: 'Über mich'
 ---
 
-# **Hi! **
-Ich bin Tim Büning! ![Tim-Profilbild](Tim-Profilbild.png "Tim-Profilbild")
+# **Hi! ** Ich bin Tim Büning! ![Tim-Profilbild](Tim-Profilbild.png "Tim-Profilbild")
 Ich liebe Kommunikation, Wirtschaft, Wissenschaft, Medien und Sport. 
 
 Ich bin in vielen Projekten involviert, unter anderem in Start-Ups, einer Partei, einigen Organisationen und meinem Familienbetrieb.
