@@ -4,16 +4,8 @@
 
 article > header > h1,
 article > header > h2 {
-    @apply bg-gradient-to-r from-my-orange to-my-yellow;
+    @apply text-primary;
     font-family: 'Montserrat'
-}
-.from-my-orange {
-  --gradient-from-color: #FB5607;
-  --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(255, 0, 110, 0));
-}
-
-.to-my-yellow {
-  --gradient-to-color: #FFBE0B;
 }
 
 code {

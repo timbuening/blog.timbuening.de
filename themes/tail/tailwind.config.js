@@ -20,42 +20,52 @@ module.exports = {
                 'sans-serif',
             ],
         },
-        typography: (theme) => ({
-            default: {
-                css: [
-                    {
-                        // fontSize: rem(18),
-                        a: {
-                            color: theme('colors.indigo.600'),
-                            textDecoration: 'none',
-                            '&:hover': {
-                                textDecoration: 'underline',
-                                color: theme('colors.pink.600'),
-                            },
-                        },
-                        h1: {
-                            color: theme('colors.indigo.600'),
-                            fontFamily: 'Montserrat'
-                        },
-                        h2: {
-                            color: theme('colors.indigo.600'),
-                            fontFamily: 'Montserrat'
-                        },
-                        h3: {
-                            color: theme('colors.indigo.600'),
-                            fontFamily: 'Montserrat'
-                        },
-                        h4: {
-                            color: theme('colors.indigo.600'),
-                            fontFamily: 'Montserrat'
-                        },
-                    },
-                    {
-                        fontSize: '18px'
-                    }
-                ]
+        extend: {
+            colors: {
+                primary: {
+                    DEFAULT: '#6366F1',
+                }
             },
-        })
+            typography: (theme) => ({
+                DEFAULT: {
+                    css: [
+                        {
+                            // fontSize: rem(18),
+                            a: {
+                                color: '#6366F1',
+                                textDecoration: 'none',
+                                '&:hover': {
+                                    textDecoration: 'underline',
+                                    color: theme('colors.pink.500'),
+                                },
+                            },
+                            h1: {
+                                color: '#6366F1',
+                                fontFamily: 'Montserrat'
+                            },
+                            h2: {
+                                color: '#6366F1',
+                                fontFamily: 'Montserrat'
+                            },
+                            h3: {
+                                color: '#6366F1',
+                                fontFamily: 'Montserrat'
+                            },
+                            h4: {
+                                color: '#6366F1',
+                                fontFamily: 'Montserrat'
+                            },
+                            pre: {
+                                lineHeight: '1.4rem'
+                            }
+                        },
+                        {
+                            fontSize: '18px'
+                        }
+                    ]
+                },
+            })
+        }
     },
     variants: {
         margin: ['last'],
